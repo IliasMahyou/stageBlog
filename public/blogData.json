@@ -1,0 +1,23 @@
+[ 
+    {
+      "day": 1,
+      "date": "September 30, 2024",
+      "hoursWorked": 8,
+      "description": "Instap dag, rondleiding, eersten stappen eerste meetings, (Kennismaking)",
+      "image": null
+    },
+    {
+      "day": 2,
+      "date": "Oktober 1, 2024",
+      "hoursWorked": 8,
+      "description": "Systeem leren kennen(scrum, meetings etc..), nieuwe technologieen,packages.",
+      "image": null
+    },
+    {
+      "day": 3,
+      "date": "Oktober 2, 2024",
+      "hoursWorked": 8,
+      "description": "Infrastructuur leren kennen van de applicaties + bouwen van de blog",
+      "image": null
+    }
+  ]
