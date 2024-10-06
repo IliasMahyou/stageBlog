@@ -1,6 +1,7 @@
 import React  from 'react';
 import { BrowserRouter as Router, Route, Routes, Navigate, Link } from 'react-router-dom';
 import BlogPage from './pages/BlogPage';
+import { BlogEntry } from './types';
 
 
 

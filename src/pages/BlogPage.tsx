@@ -20,6 +20,8 @@ const BlogPage: React.FC = () => {
  
   });
 
+let amount = blogData.length;
+
 
 
   if (isLoading) {
@@ -32,6 +34,7 @@ const BlogPage: React.FC = () => {
 
   return (
     <div className="space-y-8">
+      <h1 className="mb-4 text-4xl font-extrabold leading-none tracking-tight text-gray-900 md:text-5xl lg:text-2xl dark:text-black">Gewerkte dagen: {amount}</h1>
       {blogData.map((entry) => (
         <div key={entry.day} className="bg-white shadow rounded-lg p-6">
           <h2 className="text-xl font-semibold mb-2">Dag {entry.day} - {entry.date}</h2>
