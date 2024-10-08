@@ -1,45 +1,44 @@
-[ 
-    {
-      "day": 1,
-      "date": "September 30, 2024",
-      "hoursWorked": 8,
-      "description": "Op mijn eerste dag heb ik een rondleiding gekregen van mijn mentor Helder, heb ik kennis gemaakt met het developer team Amber het team bestaat uit Helder, Marijn, Kristof, Viktor en Iryna ook heb ik mijn eerste meeting hier gehad  ",
-      "image": null
-    },
-    {
-      "day": 2,
-      "date": "Oktober 1, 2024",
-      "hoursWorked": 8,
-      "description": "Op de tweede dag heb ik het systeem en de werkprocessen leren kennen, zoals de Scrum-methodologie en dagelijkse stand-up meetings. Daarnaast heb ik nieuwe technologieën en packages verkend die worden gebruikt in de Scribe-applicatie, zoals Zustand voor state management en TanStack Query voor data-fetching.",
-      "image": null
-    },
-    {
-      "day": 3,
-      "date": "Oktober 2, 2024",
-      "hoursWorked": 8,
-      "description": "Dag drie en we beginnen weer,ik heb me verdiept in de infrastructuur van de applicaties en ben ik begonnen met het opzetten van een blog. Dit project is bedoeld om mijn voortgang en leerervaringen te documenteren, met gebruik van tools zoals React en Vercel.",
-      "image": null
-    },    
-    {
-      "day": 4,
-      "date": "Oktober 3, 2024",
-      "hoursWorked": 8,
-      "description": "(In Development Sribe versie 19.0.0) Eerste ticket gekregen PlayFromWord (Een functie die de recorder in sync zet met de woorden onFocus of simpel gezegd wanneer je op een  woord klikt in de transcriptie dat de player op het tijd van het woord komt). in de Srcibe speech to text tool verder aan gewerkt voor de rest van de dag daarnaast heb ik ook een aantal meetings gehad.",
-      "image": null
-    }
-    {
-      "day": 5,
-      "date": "Oktober 7, 2024",
-      "hoursWorked": 8,
-      "description": "(In Development Sribe versie 19.0.0)  Ondertussen werkt het al wel moet alleen buggs eruit halen en de code verschonen dat hield me wel bezig aangezien het niet de simpelste buggs waren hier ben ik aan begonnen na de ochtend sprint.",
-      "image": null
-    }
-    {
-      "day": 6,
-      "date": "Oktober 8, 2024",
-      "hoursWorked": 8,
-      "description": "(In Development/Review Sribe versie 19.0.0) Heb mijn code review deze ochtend gekregen van Marijn onze front-end developer hier ben ik direct aan begonnen voor de sprint nog heb het deels afgekregen, in de voormiddag ben ik hier verder aan beginnen werken en heb het ook afgrekregen nu staat het ticketje in QA, derest van de dag gewerkt aan bugg fixes en code herschrijven",
-      "image": null
-    }
-    
-  ]
+[
+  {
+    "day": 1,
+    "date": "30 september 2024",
+    "hoursWorked": 8,
+    "description": "Op mijn eerste dag heb ik een rondleiding gekregen van mijn mentor Helder, heb ik kennis gemaakt met het developer team Amber. Het team bestaat uit Helder, Marijn, Kristof, Viktor en Iryna. Ook heb ik mijn eerste meeting hier gehad.",
+    "image": null
+  },
+  {
+    "day": 2,
+    "date": "1 oktober 2024",
+    "hoursWorked": 8,
+    "description": "Op de tweede dag heb ik het systeem en de werkprocessen leren kennen, zoals de Scrum-methodologie en dagelijkse stand-up meetings. Daarnaast heb ik nieuwe technologieën en packages verkend die worden gebruikt in de Scribe-applicatie, zoals Zustand voor state management en TanStack Query voor data-fetching.",
+    "image": null
+  },
+  {
+    "day": 3,
+    "date": "2 oktober 2024",
+    "hoursWorked": 8,
+    "description": "Dag drie en we beginnen weer. Ik heb me verdiept in de infrastructuur van de applicaties en ben begonnen met het opzetten van een blog. Dit project is bedoeld om mijn voortgang en leerervaringen te documenteren, met gebruik van tools zoals React en Vercel.",
+    "image": null
+  },
+  {
+    "day": 4,
+    "date": "3 oktober 2024",
+    "hoursWorked": 8,
+    "description": "(In Development Scribe versie 19.0.0) Eerste ticket gekregen: PlayFromWord (Een functie die de recorder in sync zet met de woorden onFocus, of simpel gezegd, wanneer je op een woord klikt in de transcriptie dat de player op de tijd van het woord komt). In de Scribe speech-to-text tool verder aan gewerkt voor de rest van de dag. Daarnaast heb ik ook een aantal meetings gehad.",
+    "image": null
+  },
+  {
+    "day": 5,
+    "date": "7 oktober 2024",
+    "hoursWorked": 8,
+    "description": "(In Development Scribe versie 19.0.0) Ondertussen werkt het al wel, moet alleen bugs eruit halen en de code verschonen. Dat hield me wel bezig, aangezien het niet de simpelste bugs waren. Hier ben ik aan begonnen na de ochtend sprint.",
+    "image": null
+  },
+  {
+    "day": 6,
+    "date": "8 oktober 2024",
+    "hoursWorked": 8,
+    "description": "(In Development/Review Scribe versie 19.0.0) Heb mijn code review deze ochtend gekregen van Marijn, onze front-end developer. Hier ben ik direct aan begonnen voor de sprint en heb het deels afgekregen. In de voormiddag ben ik hier verder aan gaan werken en heb het ook afgekregen. Nu staat het ticketje in QA. De rest van de dag heb ik gewerkt aan bug fixes en code herschrijven.",
+    "image": null
+  }
+]
