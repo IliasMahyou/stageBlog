@@ -40,5 +40,41 @@
     "hoursWorked": 8,
     "description": "(In Development/Review Scribe versie 19.0.0) Heb mijn code review deze ochtend gekregen van Marijn, onze front-end developer. Hier ben ik direct aan begonnen voor de sprint en heb het deels afgekregen. In de voormiddag ben ik hier verder aan gaan werken en heb het ook afgekregen. Nu staat het ticketje in QA. De rest van de dag heb ik gewerkt aan bug fixes en code herschrijven.",
     "image": null
+  },
+  {
+    "day": 7,
+    "date": "9 oktober 2024",
+    "hoursWorked": 8,
+    "description": "Verder gewerkt aan bug fixing van de PlayFromWord-functionaliteit in Scribe. Dit hield me de hele dag bezig, aangezien er nog een aantal bugs waren die opgelost moesten worden.",
+    "image": null
+  },
+  {
+    "day": 8,
+    "date": "10 oktober 2024",
+    "hoursWorked": 8,
+    "description": "Vandaag heb ik een nieuw ticket gekregen: de nieuwe player instellen in de applicatie. Na enige tijd ontdekte ik echter dat het bestand als download werd verstuurd in plaats van inline afgespeeld. Dit suggereerde een mogelijk probleem in de backend. Aangezien dit de eerste keer was dat ik met de backend moest werken, begon ik met het opzetten van de backend en het begrijpen van de API. Dit kostte ook enkele dagen.",
+    "image": null
+  },
+  {
+    "day": 9,
+    "date": "11 oktober 2024",
+    "hoursWorked": 8,
+    "description": "Ik ben verder gegaan met het onderzoeken van het probleem met de player en heb verschillende dingen geprobeerd, zoals het sturen van de file als 'inline' via headers. Helaas heb ik tot nu toe nog geen succes geboekt.",
+    "image": null
+  },
+  {
+    "day": 10,
+    "date": "14 oktober 2024",
+    "hoursWorked": 8,
+    "description": "Verder gewerkt aan de backend en de API, en geprobeerd de player correct in te stellen voor het streamen van de bestanden. Ik ben nog bezig met het zoeken naar de juiste oplossing.",
+    "image": null
+  },
+  {
+    "day": 11,
+    "date": "15 oktober 2024",
+    "hoursWorked": 8,
+    "description": "Nog steeds bezig met het probleem van het versturen van de files als download in plaats van inline. Ik werk verder aan het testen van verschillende backend-oplossingen om dit op te lossen.",
+    "image": null
   }
 ]
+
