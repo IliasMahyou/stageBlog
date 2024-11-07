@@ -1,151 +1,191 @@
 [
   {
-    "day": 1,
-    "date": "30 september 2024",
-    "hoursWorked": 8,
-    "description": "Op mijn eerste dag heb ik een rondleiding gekregen van mijn mentor Helder, heb ik kennis gemaakt met het developer team News Services. Het team bestaat uit Helder, Marijn, Kristof, Viktor en Iryna. Ook heb ik mijn eerste meeting hier gehad.",
-    "image": null
+      "day": 1,
+      "date": "30 september 2024",
+      "hoursWorked": 8,
+      "description": "Op mijn eerste dag heb ik een rondleiding gekregen van mijn mentor Helder, heb ik kennis gemaakt met het developer team News Services. Het team bestaat uit Helder, Marijn, Kristof, Viktor en Iryna. Ook heb ik mijn eerste meeting hier gehad.",
+      "image": null
   },
   {
-    "day": 2,
-    "date": "1 oktober 2024",
-    "hoursWorked": 8,
-    "description": "Op de tweede dag heb ik het systeem en de werkprocessen leren kennen, zoals de Scrum-methodologie en dagelijkse stand-up meetings. Daarnaast heb ik nieuwe technologieën en packages verkend die worden gebruikt in de Scribe-applicatie, zoals Zustand voor state management en TanStack Query voor data-fetching.",
-    "image": null
+      "day": 2,
+      "date": "1 oktober 2024",
+      "hoursWorked": 8,
+      "description": "Op de tweede dag heb ik het systeem en de werkprocessen leren kennen, zoals de Scrum-methodologie en dagelijkse stand-up meetings. Daarnaast heb ik nieuwe technologieën en packages verkend die worden gebruikt in de Scribe-applicatie, zoals Zustand voor state management en TanStack Query voor data-fetching.",
+      "image": null
   },
   {
-    "day": 3,
-    "date": "2 oktober 2024",
-    "hoursWorked": 8,
-    "description": "Dag drie en we beginnen weer. Ik heb me verdiept in de infrastructuur van de applicaties en ben begonnen met het opzetten van een blog. Dit project is bedoeld om mijn voortgang en leerervaringen te documenteren, met gebruik van tools zoals React en Vercel.",
-    "image": null
+      "day": 3,
+      "date": "2 oktober 2024",
+      "hoursWorked": 8,
+      "description": "Ik heb me verdiept in de infrastructuur van de applicaties en ben begonnen met het opzetten van een blog. Dit project is bedoeld om mijn voortgang en leerervaringen te documenteren, met gebruik van tools zoals React en Vercel.",
+      "image": null
   },
   {
-    "day": 4,
-    "date": "3 oktober 2024",
-    "hoursWorked": 8,
-    "description": "(In Development Scribe versie 19.0.0) Eerste ticket gekregen: PlayFromWord (Een functie die de recorder in sync zet met de woorden onFocus, of simpel gezegd, wanneer je op een woord klikt in de transcriptie dat de player op de tijd van het woord komt). In de Scribe speech-to-text tool verder aan gewerkt voor de rest van de dag. Daarnaast heb ik ook een aantal meetings gehad.",
-    "image": null
+      "day": 4,
+      "date": "3 oktober 2024",
+      "hoursWorked": 8,
+      "description": "(In Development Scribe versie 19.0.0) Eerste ticket gekregen: PlayFromWord (Een functie die de recorder in sync zet met de woorden onFocus, of simpel gezegd, wanneer je op een woord klikt in de transcriptie dat de player op de tijd van het woord komt). In de Scribe speech-to-text tool verder aan gewerkt voor de rest van de dag. Daarnaast heb ik ook een aantal meetings gehad.",
+      "image": null
   },
   {
-    "day": 5,
-    "date": "7 oktober 2024",
-    "hoursWorked": 8,
-    "description": "(In Development Scribe versie 19.0.0) Ondertussen werkt het al wel, moet alleen bugs eruit halen en de code verschonen. Dat hield me wel bezig, aangezien het niet de simpelste bugs waren. Hier ben ik aan begonnen na de daily standup.",
-    "image": null
+      "day": 5,
+      "date": "7 oktober 2024",
+      "hoursWorked": 8,
+      "description": "(In Development Scribe versie 19.0.0) Bugs eruit halen en de code verschonen. Dat hield me wel bezig, aangezien het niet de simpelste bugs waren. Hier ben ik aan begonnen na de daily standup.",
+      "image": null
   },
   {
-    "day": 6,
-    "date": "8 oktober 2024",
-    "hoursWorked": 8,
-    "description": "(In Development/Review Scribe versie 19.0.0) Heb mijn code review deze ochtend gekregen van Marijn, onze front-end developer. Hier ben ik direct aan begonnen voor de sprint en heb het deels afgekregen. In de voormiddag ben ik hier verder aan gaan werken en heb het ook afgekregen. Nu staat het ticketje in QA. De rest van de dag heb ik gewerkt aan bug fixes en code herschrijven.",
-    "image": null
+      "day": 6,
+      "date": "8 oktober 2024",
+      "hoursWorked": 8,
+      "description": "(In Development/Review Scribe versie 19.0.0) Heb mijn code review deze ochtend gekregen van Marijn, onze front-end developer. Hier ben ik direct aan begonnen voor de sprint en heb het deels afgekregen. Daarna heb ik gewerkt aan bug fixes en code herschrijven.",
+      "image": null
   },
   {
-    "day": 7,
-    "date": "9 oktober 2024",
-    "hoursWorked": 8,
-    "description": "Verder gewerkt aan bug fixing van de PlayFromWord-functionaliteit in Scribe. Dit hield me de hele dag bezig, aangezien er nog een aantal bugs waren die opgelost moesten worden.",
-    "image": null
+      "day": 7,
+      "date": "9 oktober 2024",
+      "hoursWorked": 8,
+      "description": "Verder gewerkt aan bug fixing van de PlayFromWord-functionaliteit in Scribe. Dit hield me de hele dag bezig, aangezien er nog een aantal bugs waren die opgelost moesten worden.",
+      "image": null
   },
   {
-    "day": 8,
-    "date": "10 oktober 2024",
-    "hoursWorked": 8,
-    "description": "Vandaag heb ik een nieuw ticket gekregen: de nieuwe player instellen in de applicatie. Na enige tijd ontdekte ik echter dat het bestand als download werd verstuurd in plaats van inline afgespeeld. Dit suggereerde een mogelijk probleem in de backend. Aangezien dit de eerste keer was dat ik met de backend moest werken, begon ik met het opzetten van de backend en het begrijpen van de API. Dit kostte ook enkele dagen.",
-    "image": null
+      "day": 8,
+      "date": "10 oktober 2024",
+      "hoursWorked": 8,
+      "description": "Nieuw ticket gekregen: de nieuwe player instellen in de applicatie. Na enige tijd ontdekte ik dat het bestand als download werd verstuurd in plaats van inline afgespeeld. Dit suggereerde een mogelijk probleem in de backend. Aangezien dit de eerste keer was dat ik met de backend moest werken, begon ik met het opzetten van de backend en het begrijpen van de API.",
+      "image": null
   },
   {
-    "day": 9,
-    "date": "11 oktober 2024",
-    "hoursWorked": 8,
-    "description": "Ik ben verder gegaan met het onderzoeken van het probleem met de player en heb verschillende dingen geprobeerd, zoals het sturen van de file als 'inline' via headers. Helaas heb ik tot nu toe nog geen succes geboekt.",
-    "image": null
+      "day": 9,
+      "date": "11 oktober 2024",
+      "hoursWorked": 8,
+      "description": "Ik ben verder gegaan met het onderzoeken van het probleem met de player en heb verschillende dingen geprobeerd, zoals het sturen van de file als 'inline' via headers. Helaas heb ik nog geen succes geboekt.",
+      "image": null
   },
   {
-    "day": 10,
-    "date": "14 oktober 2024",
-    "hoursWorked": 8,
-    "description": "Verder gewerkt aan de backend en de API, en geprobeerd de player correct in te stellen voor het streamen van de bestanden. Ik ben nog bezig met het zoeken naar de juiste oplossing.",
-    "image": null
+      "day": 10,
+      "date": "14 oktober 2024",
+      "hoursWorked": 8,
+      "description": "Verder gewerkt aan de backend en de API, en geprobeerd de player correct in te stellen voor het streamen van de bestanden. Ik ben nog bezig met het zoeken naar de juiste oplossing.",
+      "image": null
   },
   {
-    "day": 11,
-    "date": "15 oktober 2024",
-    "hoursWorked": 8,
-    "description": "Nog steeds bezig met het probleem van het versturen van de files als download in plaats van inline. Ik werk verder aan het testen van verschillende backend-oplossingen om dit op te lossen.",
-    "image": null
+      "day": 11,
+      "date": "15 oktober 2024",
+      "hoursWorked": 8,
+      "description": "Nog steeds bezig met het probleem van het versturen van de files als download in plaats van inline. Ik werk verder aan het testen van verschillende backend-oplossingen om dit op te lossen.",
+      "image": null
   },
-    {
+  {
       "day": 12,
       "date": "16 oktober 2024",
       "hoursWorked": 8,
-      "description": "(Scribe) Na enkele dagen van onderzoek hebben we samen met mijn mentor Helder een probleem in de API geïdentificeerd dat mogelijk ervoor zorgt dat de player bestanden downloadt in plaats van te streamen. De dag besteed aan het debuggen van potentiële oplossingen in de hoop dit snel op te lossen.",
+      "description": "(Scribe) Samen met mijn mentor Helder een probleem in de API geïdentificeerd dat mogelijk ervoor zorgt dat de player bestanden downloadt in plaats van te streamen. De dag besteed aan het debuggen van potentiële oplossingen.",
       "image": null
-    },
-    {
+  },
+  {
       "day": 13,
       "date": "17 oktober 2024",
       "hoursWorked": 8,
-      "description": "(Scribe) Vandaag vooral besteed aan het bespreken en analyseren van de bevindingen van gisteren. We hebben de API-configuratie in detail doorgenomen en besproken welke stappen nodig zijn om het aan te passen voor een vloeiende streamingfunctionaliteit.",
+      "description": "(Scribe) Vooral besteed aan het bespreken en analyseren van de bevindingen van gisteren. We hebben de API-configuratie in detail doorgenomen en besproken welke stappen nodig zijn om het aan te passen voor een vloeiende streamingfunctionaliteit.",
       "image": null
-    },
-    {
+  },
+  {
       "day": 14,
       "date": "18 oktober 2024",
       "hoursWorked": 8,
-      "description": "(Sportify) Vandaag getest met de Sportify-app, een live sports data app voor kranten, om te controleren of sommige API-calls nog steeds URL’s meegeven waar dit niet zou moeten gebeuren.",
+      "description": "(Sportify) Vandaag getest met de Sportify-app om te controleren of sommige API-calls nog steeds URL’s meegeven waar dit niet zou moeten gebeuren.",
       "image": null
-    },
-    {
+  },
+  {
       "day": 15,
-      "date": "19 oktober 2024",
-      "hoursWorked": 8,
-      "description": "(Scribe) Vandaag verder gegaan met het debuggen van de API in Scribe en geëxperimenteerd met verschillende configuraties voor de API-response. Deze fase kost tijd, maar brengt ons dichter bij een stabiele streamingoplossing.",
-      "image": null
-    },
-    {
-      "day": 16,
-      "date": "20 oktober 2024",
-      "hoursWorked": 8,
-      "description": "(Scribe) Meer vooruitgang geboekt met het debuggen van de API-response voor inline afspelen. Besprekingen gehouden met het team om nieuwe benaderingen te bedenken en optimalisaties door te voeren.",
-      "image": null
-    },
-    {
-      "day": 17,
       "date": "21 oktober 2024",
       "hoursWorked": 8,
-      "description": "(Scribe) Met concretere ideeën heb ik extra scenario's getest om de beste configuratie te bepalen. Elke debug-sessie bracht verbeteringen in de API-response voor de player.",
+      "description": "(Scribe) Extra scenario's getest om de beste configuratie te bepalen. Elke debug-sessie bracht verbeteringen in de API-response voor de player.",
       "image": null
-    },
-    {
-      "day": 18,
+  },
+  {
+      "day": 16,
       "date": "22 oktober 2024",
       "hoursWorked": 8,
-      "description": "(Scribe) Weer een volledige dag bezig geweest met het debuggen van de Scribe API en optimalisatie van de backend-configuratie. Momenteel blijkt de authenticatie in de API de streaming te blokkeren, wat nog niet is opgelost.",
+      "description": "(Scribe) Volledige dag bezig geweest met het debuggen van de Scribe API en optimalisatie van de backend-configuratie. Momenteel blijkt de authenticatie in de API de streaming te blokkeren.",
       "image": null
-    },
-    {
-      "day": 19,
+  },
+  {
+      "day": 17,
       "date": "23 oktober 2024",
       "hoursWorked": 8,
-      "description": "(Scribe) Na de laatste debug-sessie lijkt het erop dat we een mogelijke oplossing hebben bereikt voor het streamingprobleem, maar de implementatie is nog niet zeker. Er is een conceptbespreking om te beslissen of het nu waard is om dit op te lossen.",
+      "description": "(Scribe) Mogelijke oplossing bereikt voor het streamingprobleem, maar de implementatie is nog niet zeker. Er is een conceptbespreking gepland om te beslissen of het nu waard is om dit op te lossen.",
       "image": null
-    },
-    {
-      "day": 20,
+  },
+  {
+      "day": 18,
       "date": "24 oktober 2024",
       "hoursWorked": 8,
-      "description": "(Scribe) De dag besteed aan verdere optimalisatie van de API en laatste debug-sessies uitgevoerd om de player voor Scribe soepel inline te laten streamen. De authenticatie in de API blijft echter streaming blokkeren, en het team overweegt of het de moeite waard is om dit op te lossen.",
+      "description": "(Scribe) Verdere optimalisatie van de API en laatste debug-sessies uitgevoerd om de player voor Scribe soepel inline te laten streamen. De authenticatie in de API blijft echter streaming blokkeren.",
       "image": null
-    },
-    {
-      "day": 21,
+  },
+  {
+      "day": 19,
       "date": "25 oktober 2024",
       "hoursWorked": 8,
-      "description": "(Scribe) Vandaag bezig geweest met het bespreken van de haalbaarheid van een oplossing voor het authenticatieprobleem in de API dat streaming blokkeert, gevonden met behulp van mijn mentor Helder. De code die ik schreef in de backend voor streaming werkt uiteindelijk wel, maar we moeten nog beslissen of een fix voor de authenticatie op dit moment de moeite waard is.",
+      "description": "(Scribe) Bespreking van de haalbaarheid van een oplossing voor het authenticatieprobleem in de API dat streaming blokkeert, gevonden met behulp van mijn mentor Helder. De code die ik schreef in de backend voor streaming werkt uiteindelijk wel.",
       "image": null
-    }
-  ]
-  
-
+  },
+  {
+      "day": 20,
+      "date": "28 oktober 2024",
+      "hoursWorked": 8,
+      "description": "(Scribe) Een oplossing geïmplementeerd waarbij de pre-signed URL wordt opgehaald in de frontend om vanuit de S3-bucket te streamen, en de URL wordt vernieuwd bij elke nieuwe fetch.",
+      "image": null
+  },
+  {
+      "day": 21,
+      "date": "29 oktober 2024",
+      "hoursWorked": 8,
+      "description": "(Scribe) De code is gereviewd en aangepast aan de opmerkingen. Beide frontend- en backend-wijzigingen zijn naar de testbranch verplaatst.",
+      "image": null
+  },
+  {
+      "day": 22,
+      "date": "30 oktober 2024",
+      "hoursWorked": 8,
+      "description": "(Sportify) Nieuwe tickets opgepakt om de wijzigingen van mijn collega's in Sportify te testen.",
+      "image": null
+  },
+  {
+      "day": 23,
+      "date": "31 oktober 2024",
+      "hoursWorked": 8,
+      "description": "(Scribe) Het ticket gepubliceerd voor een merge naar de preview-omgeving. Nieuw ticket gekregen in Sportify om de bijbehorende vlaggen in Gracenote te vinden en de database bij te werken met de gecodeerde vlaggen.",
+      "image": null
+  },
+  {
+      "day": 24,
+      "date": "4 november 2024",
+      "hoursWorked": 8,
+      "description": "(Sportify) Verder gewerkt aan het Gracenote-vlaggen ticket en de database bijgewerkt met de juiste gecodeerde vlaggen.",
+      "image": null
+  },
+  {
+      "day": 25,
+      "date": "5 november 2024",
+      "hoursWorked": 8,
+      "description": "(Sportify) Volgende fase gestart in de Gracenote-vlaggen ticket om de database-aanpassingen te optimaliseren.",
+      "image": null
+  },
+  {
+      "day": 26,
+      "date": "6 november 2024",
+      "hoursWorked": 8,
+      "description": "(Scribe/Sportify) Voortgezet met testen van Sportify en een bug ticket aangemaakt",
+      "image": null
+  },
+  {
+      "day": 27,
+      "date": "7 november 2024",
+      "hoursWorked": 8,
+      "description": "Bug hunt-dag: alles testen en bugs opsporen in verschillende tickets.",
+      "image": null
+  }
+]
