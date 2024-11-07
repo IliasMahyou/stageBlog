@@ -75,6 +75,77 @@
     "hoursWorked": 8,
     "description": "Nog steeds bezig met het probleem van het versturen van de files als download in plaats van inline. Ik werk verder aan het testen van verschillende backend-oplossingen om dit op te lossen.",
     "image": null
-  }
-]
+  },
+    {
+      "day": 12,
+      "date": "16 oktober 2024",
+      "hoursWorked": 8,
+      "description": "(Scribe) Na enkele dagen van onderzoek hebben we samen met mijn mentor Helder een probleem in de API geïdentificeerd dat mogelijk ervoor zorgt dat de player bestanden downloadt in plaats van te streamen. De dag besteed aan het debuggen van potentiële oplossingen in de hoop dit snel op te lossen.",
+      "image": null
+    },
+    {
+      "day": 13,
+      "date": "17 oktober 2024",
+      "hoursWorked": 8,
+      "description": "(Scribe) Vandaag vooral besteed aan het bespreken en analyseren van de bevindingen van gisteren. We hebben de API-configuratie in detail doorgenomen en besproken welke stappen nodig zijn om het aan te passen voor een vloeiende streamingfunctionaliteit.",
+      "image": null
+    },
+    {
+      "day": 14,
+      "date": "18 oktober 2024",
+      "hoursWorked": 8,
+      "description": "(Sportify) Vandaag getest met de Sportify-app, een live sports data app voor kranten, om te controleren of sommige API-calls nog steeds URL’s meegeven waar dit niet zou moeten gebeuren.",
+      "image": null
+    },
+    {
+      "day": 15,
+      "date": "19 oktober 2024",
+      "hoursWorked": 8,
+      "description": "(Scribe) Vandaag verder gegaan met het debuggen van de API in Scribe en geëxperimenteerd met verschillende configuraties voor de API-response. Deze fase kost tijd, maar brengt ons dichter bij een stabiele streamingoplossing.",
+      "image": null
+    },
+    {
+      "day": 16,
+      "date": "20 oktober 2024",
+      "hoursWorked": 8,
+      "description": "(Scribe) Meer vooruitgang geboekt met het debuggen van de API-response voor inline afspelen. Besprekingen gehouden met het team om nieuwe benaderingen te bedenken en optimalisaties door te voeren.",
+      "image": null
+    },
+    {
+      "day": 17,
+      "date": "21 oktober 2024",
+      "hoursWorked": 8,
+      "description": "(Scribe) Met concretere ideeën heb ik extra scenario's getest om de beste configuratie te bepalen. Elke debug-sessie bracht verbeteringen in de API-response voor de player.",
+      "image": null
+    },
+    {
+      "day": 18,
+      "date": "22 oktober 2024",
+      "hoursWorked": 8,
+      "description": "(Scribe) Weer een volledige dag bezig geweest met het debuggen van de Scribe API en optimalisatie van de backend-configuratie. Momenteel blijkt de authenticatie in de API de streaming te blokkeren, wat nog niet is opgelost.",
+      "image": null
+    },
+    {
+      "day": 19,
+      "date": "23 oktober 2024",
+      "hoursWorked": 8,
+      "description": "(Scribe) Na de laatste debug-sessie lijkt het erop dat we een mogelijke oplossing hebben bereikt voor het streamingprobleem, maar de implementatie is nog niet zeker. Er is een conceptbespreking om te beslissen of het nu waard is om dit op te lossen.",
+      "image": null
+    },
+    {
+      "day": 20,
+      "date": "24 oktober 2024",
+      "hoursWorked": 8,
+      "description": "(Scribe) De dag besteed aan verdere optimalisatie van de API en laatste debug-sessies uitgevoerd om de player voor Scribe soepel inline te laten streamen. De authenticatie in de API blijft echter streaming blokkeren, en het team overweegt of het de moeite waard is om dit op te lossen.",
+      "image": null
+    },
+    {
+      "day": 21,
+      "date": "25 oktober 2024",
+      "hoursWorked": 8,
+      "description": "(Scribe) Vandaag bezig geweest met het bespreken van de haalbaarheid van een oplossing voor het authenticatieprobleem in de API dat streaming blokkeert, gevonden met behulp van mijn mentor Helder. De code die ik schreef in de backend voor streaming werkt uiteindelijk wel, maar we moeten nog beslissen of een fix voor de authenticatie op dit moment de moeite waard is.",
+      "image": null
+    }
+  ]
+  
 
