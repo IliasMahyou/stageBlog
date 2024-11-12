@@ -187,5 +187,19 @@
       "hoursWorked": 8,
       "description": "Bug hunt-dag: alles testen en bugs opsporen in verschillende tickets.",
       "image": null
+  },
+  {
+    "day": 28,
+    "date": "8 november 2024",
+    "hoursWorked": 8,
+    "description":"Ik ben begonnen aan een nieuw ticket waarbij ik alle bestaande vlaggen moest downloaden naar onze bucket. Hiervoor heb ik een script geschreven. Natuurlijk is de key in de screenshot niet de echte key. Ik heb dit script gemaakt door bestaande code in een loop te plaatsen in .NET. Eerst heb ik uit een dictionary alle vlaggen en hun landcodes gehaald en deze in een Console.WriteLine geplaatst.",
+    "image": "https://i.ibb.co/DzJGXGS/Screenshot-2024-11-12-103451.png"
+  },
+  {
+    "day": 29,
+    "date": "12 november 2024",
+    "hoursWorked": 8,
+    "description":"Na de ochtendstand-up en evaluatie informeerde Viktor me over een bug in Scribe: de preScribedURL vervalt na een uur, waardoor de player stopt met afspelen. Om dit te verhelpen, moet ik de link vernieuwen door een nieuwe fetch uit te voeren.",
+    "image": null
   }
 ]

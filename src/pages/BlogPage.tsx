@@ -1,8 +1,9 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { useQuery } from '@tanstack/react-query';
 import { BlogEntry } from '../types'; 
 import { format, getISOWeek, isValid, parse } from 'date-fns';
 import { nl } from 'date-fns/locale'; // Import Dutch locale for date parsing
+
 
 const fetchBlogData = async (): Promise<BlogEntry[]> => {
   const response = await fetch('/blogData.json');
@@ -39,7 +40,15 @@ const BlogPage: React.FC = () => {
     queryKey: ['blogData'],
     queryFn: fetchBlogData,
   });
-
+  const [imageSize, setImageSize] = useState<Boolean>(false)
+  const ImageSize = () => {
+    if(imageSize === true){
+      setImageSize(false)
+    }
+    else{
+      setImageSize(true)
+    }
+  }
   if (isLoading) {
     return <div>Loading...</div>;
   }
@@ -78,9 +87,13 @@ const BlogPage: React.FC = () => {
                 <p className="mt-2">{entry.description}</p>
                 {entry.image && (
                   <div className="mt-4">
-                    <img src={entry.image} alt={`Screenshot for day ${entry.day}`} className="rounded-lg shadow" />
+                    <img onClick={ImageSize} 
+                    src={entry.image} 
+                    alt={`Screenshot for day ${entry.day}`} 
+                    className={`rounded-lg shadow ${imageSize ? 'w-full' : 'w-1/4'} hover:cursor-pointer transition-all duration-500`}/>
                   </div>
                 )}
+               
               </div>
             );
           })}
