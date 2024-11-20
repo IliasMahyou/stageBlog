@@ -4,5 +4,6 @@ export interface BlogEntry {
     hoursWorked: number;
     description: string;
     image?: string | null;
+    imageSize?: boolean | null;
   }
   

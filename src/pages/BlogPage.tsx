@@ -3,6 +3,7 @@ import { useQuery } from '@tanstack/react-query';
 import { BlogEntry } from '../types'; 
 import { format, getISOWeek, isValid, parse } from 'date-fns';
 import { nl } from 'date-fns/locale'; // Import Dutch locale for date parsing
+import { useMutation, useQueryClient } from '@tanstack/react-query';
 
 
 const fetchBlogData = async (): Promise<BlogEntry[]> => {
@@ -36,26 +37,26 @@ const groupByWeeks = (blogData: BlogEntry[]) => {
 };
 
 const BlogPage: React.FC = () => {
-  const { data: blogData = [], error, isLoading } = useQuery<BlogEntry[], Error>({
+  const queryClient = useQueryClient();
+  const { data: blogData = [], error, isLoading } = useQuery<BlogEntry[] | undefined, Error>({
     queryKey: ['blogData'],
     queryFn: fetchBlogData,
   });
-  const [imageSize, setImageSize] = useState<Boolean>(false)
-  const ImageSize = () => {
-    if(imageSize === true){
-      setImageSize(false)
+ 
+  
+  const ImageSize = (data: BlogEntry | undefined) => {
+    if (!data) {
+      return;
     }
-    else{
-      setImageSize(true)
-    }
-  }
-  if (isLoading) {
-    return <div>Loading...</div>;
-  }
+    queryClient.setQueryData<BlogEntry[]>(['blogData'], (oldBlogData = []) =>
+      oldBlogData.map((entry) =>
+        entry.day === data.day
+          ? { ...entry, imageSize: entry.imageSize === null ? true : !entry.imageSize } 
+          : entry
+      )
+    );
+  };
 
-  if (error) {
-    return <div>Error loading blog data: {error.message}</div>;
-  }
 
   const groupedByWeeks = groupByWeeks(blogData);
 
@@ -87,10 +88,10 @@ const BlogPage: React.FC = () => {
                 <p className="mt-2">{entry.description}</p>
                 {entry.image && (
                   <div className="mt-4">
-                    <img onClick={ImageSize} 
+                    <img onClick={() => ImageSize(entry)} 
                     src={entry.image} 
                     alt={`Screenshot for day ${entry.day}`} 
-                    className={`rounded-lg shadow ${imageSize ? 'w-full' : 'w-1/4'} hover:cursor-pointer transition-all duration-500`}/>
+                    className={`rounded-lg shadow ${entry.imageSize ? 'w-full' : 'w-1/4'} align-self: center; hover:cursor-pointer transition-all duration-500`}/>
                   </div>
                 )}
                

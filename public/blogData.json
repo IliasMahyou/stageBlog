@@ -199,7 +199,14 @@
     "day": 29,
     "date": "12 november 2024",
     "hoursWorked": 8,
-    "description":"Na de ochtendstand-up en evaluatie informeerde Viktor me over een bug in Scribe: de preScribedURL vervalt na een uur, waardoor de player stopt met afspelen. Om dit te verhelpen, moet ik de link vernieuwen door een nieuwe fetch uit te voeren.",
+    "description":"Na de ochtendstand-up en evaluatie informeerde Viktor me over een bug in Scribe: de preScribedURL vervalt na een uur, waardoor de player stopt met afspelen. Om dit te verhelpen, moet ik de link vernieuwen door een nieuwe fetch uit te voeren. Hier ben ik dan mee begonnen om een bug ticketje voor te maken en beginnen nadenken hoe ik dit zal oplossen",
     "image": null
+  },
+  {
+    "day": 30,
+    "date": "13 november 2024",
+    "hoursWorked": 8,
+    "description":"Vandaag is er een nieuwe bugg vermeld in sportify met de ordering van de phases in de JPL hier zal ik dan aan beginnen en zal ik even wachten met het scribe ticket heb even met onze Senior dev in een call gezeten om het ticketje aan me uit te leggen en me even rond te leiden in de nieuwe API van Sportify dus hier zal ik ook even tijd in steken om mijn weg beter te kunnen vinden, ondertussen ben ik ook begonnen met alle data van gracenote lokaal te importeren",
+    "image": "https://i.ibb.co/mcyYjj2/E4273-D26-2105-45-E6-8-B6-A-95-FDB24-A19-AD.png"
   }
 ]
