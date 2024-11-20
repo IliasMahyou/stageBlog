@@ -208,5 +208,40 @@
     "hoursWorked": 8,
     "description":"Vandaag is er een nieuwe bugg vermeld in sportify met de ordering van de phases in de JPL hier zal ik dan aan beginnen en zal ik even wachten met het scribe ticket heb even met onze Senior dev in een call gezeten om het ticketje aan me uit te leggen en me even rond te leiden in de nieuwe API van Sportify dus hier zal ik ook even tijd in steken om mijn weg beter te kunnen vinden, ondertussen ben ik ook begonnen met alle data van gracenote lokaal te importeren",
     "image": "https://i.ibb.co/mcyYjj2/E4273-D26-2105-45-E6-8-B6-A-95-FDB24-A19-AD.png"
+  },
+  {
+    "day": 31,
+    "date": "14 november 2024",
+    "hoursWorked": 8,
+    "description":"Na gisteren, ben ik tot de realisatie gekomen dat ik beter data grote data kan laten importeren over het week-end of op een dev branch aangezien het echt teveel data is om gewoon door de week te laten importeren omdat het gewoon te lang duurt, vandaag heb ook Refinement gehad en hebben we een beetje functional handeling besproken wat er belangrijk zou zijn in de Sportbar",
+    "image": ""
+  },
+  {
+    "day": 32,
+    "date": "15 november 2024",
+    "hoursWorked": 8,
+    "description":"Vandaag heb ik geprobeerd om zoveel mogelijk ticketjes te testen en reviewen aangezien de sprint dinsdag eindigd",
+    "image": ""
+  },
+  {
+    "day": 33,
+    "date": "18 november 2024",
+    "hoursWorked": 8,
+    "description":"Vandaag ben ik er achtergekomen dat ik door een kleine fout maar toch impactvol de importer van data opnieuw moet runnen, aangezien ik het nog niet zelf kan laten runnen op een dev branch zal ik het moeten vragen aan een van de seniors om het voor mijn branch opnieuw te laten runnen ook heb ik de vlaggen script afgewerkt maar zal eerst de token moeten krijgen om de script te laten pushen op de production branch.",
+    "image": ""
+  },
+  {
+    "day": 34,
+    "date": "19 november 2024",
+    "hoursWorked": 8,
+    "description":"Vandaag is de sprint geeindigd,  Ik wou voor de ochtendsprint de vlaggen uploaden maar aangezien ik geen production token heb kan ik de script niet uploaden naar live dus dit zal moeten wachten tot morgen aangezien een andere dev deze heeft en wil de token niet laten refreshen omdat deze ook ergens anders gebruikt word. Derest van de dag hadden we een refinement en heb ik de code gereviewed van een senior en zijn code getest",
+    "image": ""
+  },
+  {
+    "day": 35,
+    "date": "20 november 2024",
+    "hoursWorked": 8,
+    "description":"Vandaag heb ik een nieuw ticketje opgenomen waarbij ik de vervaltijd van onze transcribing-process vergroot om grotere files te transcriben in Scribe, ook was de dev aanwezig vandaag die de token heeft om scripts uit te voeren naar focus de api die images opslaat, dus dat hebben we ook even geregeld. Ook heb ik het ticketje eerder besproken afgewerkt en het staat nu op de test branch.",
+    "image": ""
   }
 ]
