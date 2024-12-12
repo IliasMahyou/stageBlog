@@ -260,90 +260,95 @@
   },
   {
     "day": 38,
-    "date": "23 november 2024",
-    "hoursWorked": 8,
-    "description": "Ik heb verder gewerkt aan de ordering bug in de JPL League. Het importscript is verfijnd om parent phases correct te associëren met hun subphases. De pre-signed URL-functionaliteit is verder verfijnd, waarbij de URL nu automatisch wordt vernieuwd 10 minuten vóór de vervaltijd. Samen met de playback offset-functionaliteit is dit volledig getest en klaar voor verdere staging-tests.",
-    "image": ""
-  },
-  {
-    "day": 39,
     "date": "25 november 2024",
     "hoursWorked": 8,
     "description": "Ik heb gewerkt aan de documentatie van de pre-signed URL, playback offset-functionaliteiten, en de oplossing voor de ordering bug in de JPL League. Deze documentatie legt het implementatieproces uit en geeft richtlijnen voor toekomstig onderhoud. Daarnaast heb ik tijd besteed aan een algemene test van alle functionaliteiten.",
     "image": ""
   },
   {
-    "day": 40,
+    "day": 39,
     "date": "26 november 2024",
     "hoursWorked": 8,
     "description": "Tijdens het testen van de Sportify Admin Panel heb ik een bug gevonden waarbij evenementen één dag achterliepen bij het wijzigen en terugzetten van de datum. Deze bug heb ik gerapporteerd aan het team. Daarnaast heb ik verder gewerkt aan de ordering bug in de JPL League, die nu volledig is opgelost en getest.",
     "image": ""
   },
   {
-    "day": 41,
+    "day": 40,
     "date": "27 november 2024",
+    "hoursWorked": 8,
+    "description": "Ik heb een volledige dag besteed aan bug hunting in de Sportify Admin Panel. Ik heb feedback verzameld over verschillende issues en deze gerapporteerd aan het team. De focus lag op het verbeteren van de stabiliteit van de applicatie.",
+    "image": ""
+  },  {
+    "day": 41,
+    "date": "28 november 2024",
+    "hoursWorked": 8,
+    "description": "Ik heb een volledige dag besteed aan bug hunting in de Sportify Admin Panel. Ik heb feedback verzameld over verschillende issues en deze gerapporteerd aan het team. De focus lag op het verbeteren van de stabiliteit van de applicatie.",
+    "image": ""
+  },  {
+    "day": 42,
+    "date": "29 november 2024",
     "hoursWorked": 8,
     "description": "Ik heb een volledige dag besteed aan bug hunting in de Sportify Admin Panel. Ik heb feedback verzameld over verschillende issues en deze gerapporteerd aan het team. De focus lag op het verbeteren van de stabiliteit van de applicatie.",
     "image": ""
   },
   {
-    "day": 42,
+    "day": 43,
     "date": "2 december 2024",
     "hoursWorked": 8,
     "description": "Ik heb verder gewerkt aan de pre-signed URL-functionaliteit. De focus lag op het vinden van de beste manier om de URL automatisch te vernieuwen vóór de vervaltijd. Verschillende methoden, zoals intervalcontrole en React Query, werden geëvalueerd.",
     "image": ""
   },
   {
-    "day": 43,
+    "day": 44,
     "date": "3 december 2024",
     "hoursWorked": 8,
     "description": "De evaluatie van de pre-signed URL-functionaliteit ging verder. Ik heb tests uitgevoerd om te controleren hoe de oplossing presteert onder verschillende omstandigheden, zoals trage netwerken en meerdere gelijktijdige gebruikers. Optimalisaties zijn geïmplementeerd.",
     "image": ""
   },
   {
-    "day": 44,
+    "day": 45,
     "date": "4 december 2024",
     "hoursWorked": 8,
     "description": "Ik heb gewerkt aan het verfijnen van de pre-signed URL-functionaliteit. De focus lag op het minimaliseren van mogelijke netwerkfouten en het verbeteren van de efficiëntie van de URL-vernieuwing. Testen zijn uitgevoerd op verschillende browsers en apparaten.",
     "image": ""
   },
   {
-    "day": 45,
+    "day": 46,
     "date": "5 december 2024",
     "hoursWorked": 8,
     "description": "De implementatie van de pre-signed URL is verder geoptimaliseerd. Ik heb gewerkt aan de logica voor automatische vernieuwing en gezorgd dat de functionaliteit robuust genoeg is om ononderbroken toegang tot media te garanderen.",
     "image": ""
   },
   {
-    "day": 46,
+    "day": 47,
     "date": "6 december 2024",
     "hoursWorked": 8,
     "description": "De pre-signed URL-functionaliteit is verder getest en geperfectioneerd. Dit omvatte het valideren van de URL-vernieuwing in productieachtige scenario's en het aanpakken van edge-cases. De oplossing is nu klaar voor de testomgeving.",
     "image": ""
   },
   {
-    "day": 47,
+    "day": 50,
     "date": "9 december 2024",
     "hoursWorked": 8,
     "description": "Ik heb samen met Helder gewerkt aan het aanpassen van de architectuur van een van de Scribe-transcriptiemodellen, 'Deepgram'. We hebben onderzocht hoe we dit model synchronisch kunnen uitvoeren in plaats van asynchronisch, om de efficiëntie en betrouwbaarheid van de transcriptie te verbeteren. Dit werk bevindt zich nog in de implementatiefase.",
     "image": ""
   },
   {
-    "day": 48,
+    "day": 51,
     "date": "10 december 2024",
     "hoursWorked": 8,
     "description": "Vandaag heb ik verder gecode met Helder aan het vervangen van de architectuur voor het Deepgram-transcriptiemodel. We hebben gewerkt aan het structureren van de synchronische uitvoering en tegelijkertijd scenario's getest om de impact op de bestaande systemen te begrijpen. Dit is nog niet volledig afgerond.",
     "image": ""
   },
   {
-    "day": 49,
+    "day": 52,
     "date": "11 december 2024",
     "hoursWorked": 8,
     "description": "Ik heb samen met Marijn, onze front-end developer, gewerkt aan een nieuwe knop in de UI van het Sportify Admin Panel. De knop heeft een vaste hoogte en breedte van 40 px. We hebben technologie zoals Storybook gebruikt om de knop te renderen en ervoor te zorgen dat de component consistent blijft binnen het design system. Het ontwerp en de functionaliteit zijn geïmplementeerd en getest.",
     "image": ""
   },
   {
-    "day": 50,
+    "day": 53,
     "date": "12 december 2024",
     "hoursWorked": 8,
     "description": "De nieuwe knop in de UI van het Sportify Admin Panel is verder getest en verbeterd. Stylingaanpassingen zijn doorgevoerd en de functionaliteit is gevalideerd. De knop is volledig geïntegreerd en klaar voor release.",
