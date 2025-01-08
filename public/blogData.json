@@ -327,31 +327,115 @@
     "image": ""
   },
   {
-    "day": 50,
+    "day": 48,
     "date": "9 december 2024",
     "hoursWorked": 8,
     "description": "Ik heb samen met Helder gewerkt aan het aanpassen van de architectuur van een van de Scribe-transcriptiemodellen, 'Deepgram'. We hebben onderzocht hoe we dit model synchronisch kunnen uitvoeren in plaats van asynchronisch, om de efficiëntie en betrouwbaarheid van de transcriptie te verbeteren. Dit werk bevindt zich nog in de implementatiefase.",
     "image": ""
   },
   {
-    "day": 51,
+    "day": 49,
     "date": "10 december 2024",
     "hoursWorked": 8,
     "description": "Vandaag heb ik verder gecode met Helder aan het vervangen van de architectuur voor het Deepgram-transcriptiemodel. We hebben gewerkt aan het structureren van de synchronische uitvoering en tegelijkertijd scenario's getest om de impact op de bestaande systemen te begrijpen. Dit is nog niet volledig afgerond.",
     "image": ""
   },
   {
-    "day": 52,
+    "day": 50,
     "date": "11 december 2024",
     "hoursWorked": 8,
     "description": "Ik heb samen met Marijn, onze front-end developer, gewerkt aan een nieuwe knop in de UI van het Sportify Admin Panel. De knop heeft een vaste hoogte en breedte van 40 px. We hebben technologie zoals Storybook gebruikt om de knop te renderen en ervoor te zorgen dat de component consistent blijft binnen het design system. Het ontwerp en de functionaliteit zijn geïmplementeerd en getest.",
     "image": ""
   },
   {
-    "day": 53,
+    "day": 51,
     "date": "12 december 2024",
     "hoursWorked": 8,
     "description": "De nieuwe knop in de UI van het Sportify Admin Panel is verder getest en verbeterd. Stylingaanpassingen zijn doorgevoerd en de functionaliteit is gevalideerd. De knop is volledig geïntegreerd en klaar voor release.",
+    "image": ""
+  },
+  {
+    "day": 52,
+    "date": "16 december 2024",
+    "hoursWorked": 8,
+    "description": "Vandaag heb ik een nieuw ticketje opgenomen en snel afgewerkt waarbij dat er een bugg was in de Sportify-web-sdk de padding van de header kwam niet overeen met de padding in de Figma's.",
+    "image": ""
+  },
+  {
+    "day": 53,
+    "date": "17 december 2024",
+    "hoursWorked": 8,
+    "description": "De PI plannings dagen zijn officieel begonnen waar we 2 hele dagen gebruken om ticketjes te evaluren en te plannen voor de volgende sprints voor Sportify, ook is Jurgen ondertussen aangesloten vanuit het blue team bij ons om ons extra Senior hulp te bieden in de back-end maar tot Februari wekrt hij even aan een solo project met ondersteuning van het team waar nodig *PI planning dagen zijn twee dagen waar je voledig focus op welke onderwerpen we gaan aanpakken en nog specifieker de ticketjes evalueren en in de sprints zetten",
+    "image": ""
+  },
+  {
+    "day": 54,
+    "date": "18 december 2024",
+    "hoursWorked": 8,
+    "description": "Dit is dag 2 van de PI planning, vandaag heb ik een presentatie mogen bijwonen van de AP Bachleor studenten die een week hebben samen gewerkt met het innovatie team dit was ook een intressant om eens aan de andere kant te mogen zitten.",
+    "image": ""
+  },
+  {
+    "day": 55,
+    "date": "19 december 2024",
+    "hoursWorked": 8,
+    "description": "Nu de PI dagen voorbij zijn en de meetings erop zitten. Is het weer tijd om te coderen heb ondertussen ook een nieuw fullstack ticketje opgenomen in scribe, de mensen van de redactie zouden graag hun files in de applicatie willen sorten. Dus zou ik een nieuwe colom in de databse moeten maken met een displayName en een nieuwe endpoint in de API waar je je displayName zou moeten kunnen veranderen ben begonnen aan de frontend om dan aan te tonen voor de user dat die een mogelijkheid is",
+    "image": ""
+  },
+  {
+    "day": 56,
+    "date": "20 december 2024",
+    "hoursWorked": 8,
+    "description": "Vandaag werk ik verder aan de frontend en het ziet er al beter uit waarbij ik aangeef met een potloodje boven de filename dat je het inderdaad zou moeten kunnen aanpassen op het moment gebruik ik even states om dit te mocken.",
+    "image": ""
+  },
+  {
+    "day": 57,
+    "date": "30 december 2024",
+    "hoursWorked": 8,
+    "description": "Vandaag heb ik besloten om aan de backend te beginnen van dit ticketje en heb ik geprobeerd om de migration uit te voeren aangezien dit de eerste keer is dat ik met fluentMigration werk een NuGet in .NET heb ik vandaag uitgezocht hoe de migration werkt maar heb het nog niet helemaal voor elkaar gekregen",
+    "image": ""
+  },
+  {
+    "day": 58,
+    "date": "31 december 2024",
+    "hoursWorked": 8,
+    "description": "Vandaag de dag voor het nieuwe jaar heb ik het voor elkaar gekregen om de migration uit te voeren en heb al op z'n minst het veldje van DisplayName erin gekregen. maar ik had last van een aantal errors (spoiler: moest het nullable maken)",
+    "image": ""
+  },
+  {
+    "day": 59,
+    "date": "2 januari 2025",
+    "hoursWorked": 8,
+    "description": "Heb vandaag mijn error gevonden en moest de variable nullable maken omdat het in de database natuurlijk nogsteeds null is met een displayname? = displayname ?? filename",
+    "image": ""
+  },
+  {
+    "day": 60,
+    "date": "3 januari",
+    "hoursWorked": 8,
+    "description": "Vandaag heb ik gewoon verder gewerkt aan de API om het zo snel mogelijk af te kunnen krijgen....To be continued",
+    "image": ""
+  },
+  {
+    "day": 61,
+    "date": "6 januari",
+    "hoursWorked": 8,
+    "description": "Heb de API grontendeels afgewerkt en vandaag zal ik de endpoint toevoegen om de displayName te kunnen aanpassen er zijn 3 lagen, FileContext --> het oproepen van de database en de nodige varibale worden doorgegeven zoals de displayname en de fileId --> ScribeServices waar de Service word uitgevoerd dus waar fileContext word aangeroepen --> en natuurlijk de controller zelf ScribeController waar de Authenticatie op staat en hier word ScribeService aangeroepen om dan via de endpoint de DisplayName en Id door te geven",
+    "image": ""
+  },
+  {
+    "day": 62,
+    "date": "7 januari",
+    "hoursWorked": 8,
+    "description": "Nu ben ik weer terug begonnen aan de frontend van dit ticketje om de endpoint in de frontend te kunnen aanroepen natuurlijk met grote applicaties zoals dit is dit zeker geen makkelijke taak aangezien dat er veel aangepast moet worden in verschillende files, nu is het in grote lijnen afgewerkt en het werkt ook maar moet even een beetje details opruimen zoals error codes toevoegen etc.",
+    "image": ""
+  },
+    {
+    "day": 63,
+    "date": "8 januari",
+    "hoursWorked": 8,
+    "description": "Gisteren aan het einde van de dag was ik even begonnen aan m'n einddocument voor de richting en ben hier vandaag op verder aan het gaan om dit af te krijgen en heb ik weer even mijn blog geupdate :)",
     "image": ""
   }
 ]
