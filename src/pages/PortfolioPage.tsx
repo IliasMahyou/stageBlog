@@ -1,31 +1,21 @@
 import React from 'react';
-import ProjectCard from '../components/ProjectCard';
 
 const projects = [
   {
     id: 1,
-    title: 'Project One',
-    description: 'Description of Project One.',
-    image: 'project1.jpg',
-    link: '/project-one',
+    title: 'Scribe',
+    description: 'Mediahuis - AI Internal application for Speech to Text',
+    image: 'https://i.ibb.co/Yd3rFF7/Screenshot-2025-01-09-130825.png', 
   },
   {
     id: 2,
-    title: 'Project Two',
-    description: 'Description of Project Two.',
-    image: 'project2.jpg',
-    link: '/project-two',
+    title: 'Sportify',
+    description: 'Mediahuis - Sports widget for all brands',
+    image: 'https://i.ibb.co/YWXsgJw/Screenshot-2025-01-09-131949.png', 
   },
-  
 ];
 
 const PortfolioPage: React.FC = () => {
-  const projects = [
-    { id: 1, title: 'Project One', description: 'A great project.', image: 'project1.jpg' },
-    { id: 2, title: 'Project Two', description: 'Another great project.', image: 'project2.jpg' },
-    // Add more projects here
-  ];
-
   return (
     <div className="min-h-screen bg-gray-900 text-gray-100">
       <div className="container mx-auto py-12">
@@ -58,4 +48,3 @@ const PortfolioPage: React.FC = () => {
 };
 
 export default PortfolioPage;
-

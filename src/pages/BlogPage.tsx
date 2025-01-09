@@ -73,47 +73,50 @@ const BlogPage: React.FC = () => {
           </p>
         </header>
 
-        {Object.entries(groupedByWeeks).map(([week, entries]) => (
-          <section
-            key={week}
-            className="bg-gray-800 shadow-md rounded-lg p-6 mb-8 hover:shadow-lg transition-shadow duration-300"
-          >
-            <h2 className="text-2xl font-bold text-gray-200 mb-4">Week {week}</h2>
-            <div className="space-y-4">
-              {entries.map((entry) => {
-                const entryDate = parse(entry.date, 'd MMMM yyyy', new Date(), { locale: nl });
+{Object.entries(groupedByWeeks).map(([week, entries], index) => (
+  <section
+    key={week}
+    className="bg-gray-800 shadow-md rounded-lg p-6 mb-8 hover:shadow-lg transition-shadow duration-300"
+  >
+    {/* Increment index by 1 to display it as a human-readable number */}
+    <h2 className="text-2xl font-bold text-gray-200 mb-4">Week {index + 1}</h2>
+    <div className="space-y-4">
+      {entries.map((entry) => {
+        const entryDate = parse(entry.date, 'd MMMM yyyy', new Date(), { locale: nl });
 
-                return (
-                  <article
-                    key={entry.day}
-                    className="bg-gray-700 rounded-md shadow p-4 border-l-4 border-blue-500 hover:bg-gray-600 transition-colors duration-300"
-                  >
-                    <h3 className="text-xl font-semibold text-gray-200">
-                      Dag {entry.day} -{' '}
-                      {isValid(entryDate) ? format(entryDate, 'dd/MM/yyyy') : 'Invalid Date'}
-                    </h3>
-                    <p className="text-sm text-gray-400 mt-1">
-                      <strong>Uren gewerkt:</strong> {entry.hoursWorked}
-                    </p>
-                    <p className="text-gray-300 mt-2">{entry.description}</p>
-                    {entry.image && (
-                      <div className="mt-4">
-                        <img
-                          onClick={() => toggleImageSize(entry)}
-                          src={entry.image}
-                          alt={`Screenshot for day ${entry.day}`}
-                          className={`rounded-lg shadow ${
-                            entry.imageSize ? 'w-full' : 'w-1/4'
-                          } hover:cursor-pointer transition-all duration-500`}
-                        />
-                      </div>
-                    )}
-                  </article>
-                );
-              })}
-            </div>
-          </section>
-        ))}
+        return (
+          <article
+            key={entry.day}
+            className="bg-gray-700 rounded-md shadow p-4 border-l-4 border-blue-500 hover:bg-gray-600 transition-colors duration-300"
+          >
+            <h3 className="text-xl font-semibold text-gray-200">
+              Dag {entry.day} -{' '}
+              {isValid(entryDate) ? format(entryDate, 'dd/MM/yyyy') : 'Invalid Date'}
+            </h3>
+            <p className="text-sm text-gray-400 mt-1">
+              <strong>Uren gewerkt:</strong> {entry.hoursWorked}
+            </p>
+            <p className="text-gray-300 mt-2">{entry.description}</p>
+            {entry.image && (
+              <div className="mt-4">
+                <img
+                  onClick={() => toggleImageSize(entry)}
+                  src={entry.image}
+                  alt={`Screenshot for day ${entry.day}`}
+                  className={`rounded-lg shadow ${
+                    entry.imageSize ? 'w-full' : 'w-1/4'
+                  } hover:cursor-pointer transition-all duration-500`}
+                />
+              </div>
+            )}
+          </article>
+        );
+      })}
+    </div>
+  </section>
+))}
+
+  
 
         {isLoading && <p className="text-center text-gray-500">Loading...</p>}
         {error && (
