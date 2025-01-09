@@ -13,13 +13,20 @@ const App: React.FC = () => {
       const stars = starsContainerRef.current.querySelectorAll('.star');
 
       stars.forEach((star) => {
+        // Set initial random positions
+        gsap.set(star, {
+          x: () => Math.random() * window.innerWidth - window.innerWidth / 2,
+          y: () => Math.random() * window.innerHeight - window.innerHeight / 2,
+        });
+
+        // Animate each star to float
         gsap.to(star, {
-          opacity: () => Math.random() * 0.5 + 0.5, // Random twinkling opacity
-          scale: () => Math.random() * 0.3 + 0.7, // Slight size variation
-          duration: 2,
-          repeat: -1,
-          yoyo: true,
-          ease: 'sine.inOut',
+          x: () => Math.random() * window.innerWidth - window.innerWidth / 2,
+          y: () => Math.random() * window.innerHeight - window.innerHeight / 2,
+          duration: () => Math.random() * 10 + 5, // Random duration between 5s and 15s
+          repeat: -1, // Infinite animation
+          yoyo: true, // Move back and forth
+          ease: 'power1.inOut',
         });
       });
     }

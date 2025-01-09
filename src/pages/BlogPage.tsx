@@ -87,7 +87,7 @@ const BlogPage: React.FC = () => {
         return (
           <article
             key={entry.day}
-            className="bg-gray-700 rounded-md shadow p-4 border-l-4 border-blue-500 hover:bg-gray-600 transition-colors duration-300"
+            className="bg-gray-700 rounded-md shadow p-4 border-l-4 border-blue-500 transition-colors duration-300"
           >
             <h3 className="text-xl font-semibold text-gray-200">
               Dag {entry.day} -{' '}

@@ -13,6 +13,12 @@ const projects = [
     description: 'Mediahuis - Sports widget for all brands',
     image: 'https://i.ibb.co/YWXsgJw/Screenshot-2025-01-09-131949.png', 
   },
+  {
+    id: 3,
+    title: 'Hustlr.',
+    description: 'My own project - Design/Front-End',
+    image: 'https://i.ibb.co/nwc9qX1/Screenshot-2025-01-09-143406.png', 
+  },
 ];
 
 const PortfolioPage: React.FC = () => {
