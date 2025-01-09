@@ -412,28 +412,28 @@
   },
   {
     "day": 60,
-    "date": "3 januari",
+    "date": "3 januari 2025",
     "hoursWorked": 8,
     "description": "Vandaag heb ik gewoon verder gewerkt aan de API om het zo snel mogelijk af te kunnen krijgen....To be continued",
     "image": ""
   },
   {
     "day": 61,
-    "date": "6 januari",
+    "date": "6 januari 2025",
     "hoursWorked": 8,
     "description": "Heb de API grontendeels afgewerkt en vandaag zal ik de endpoint toevoegen om de displayName te kunnen aanpassen er zijn 3 lagen, FileContext --> het oproepen van de database en de nodige varibale worden doorgegeven zoals de displayname en de fileId --> ScribeServices waar de Service word uitgevoerd dus waar fileContext word aangeroepen --> en natuurlijk de controller zelf ScribeController waar de Authenticatie op staat en hier word ScribeService aangeroepen om dan via de endpoint de DisplayName en Id door te geven",
     "image": ""
   },
   {
     "day": 62,
-    "date": "7 januari",
+    "date": "7 januari 2025",
     "hoursWorked": 8,
     "description": "Nu ben ik weer terug begonnen aan de frontend van dit ticketje om de endpoint in de frontend te kunnen aanroepen natuurlijk met grote applicaties zoals dit is dit zeker geen makkelijke taak aangezien dat er veel aangepast moet worden in verschillende files, nu is het in grote lijnen afgewerkt en het werkt ook maar moet even een beetje details opruimen zoals error codes toevoegen etc.",
     "image": ""
   },
     {
     "day": 63,
-    "date": "8 januari",
+    "date": "8 januari 2025",
     "hoursWorked": 8,
     "description": "Gisteren aan het einde van de dag was ik even begonnen aan m'n einddocument voor de richting en ben hier vandaag op verder aan het gaan om dit af te krijgen en heb ik weer even mijn blog geupdate :)",
     "image": ""
