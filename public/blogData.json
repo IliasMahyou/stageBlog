@@ -276,7 +276,7 @@
     "day": 40,
     "date": "27 november 2024",
     "hoursWorked": 8,
-    "description": "Ik heb een volledige dag besteed aan bug hunting in de Sportify Admin Panel. Ik heb feedback verzameld over verschillende issues en deze gerapporteerd aan het team. De focus lag op het verbeteren van de stabiliteit van de applicatie.",
+    "description": "Vandaag heb ik verder gewerkt aan de presingedURL bugg om er even in te duiken en onderzoeken wat er mis is en hoe we dit oplossen",
     "image": ""
   },  {
     "day": 41,
@@ -288,7 +288,7 @@
     "day": 42,
     "date": "29 november 2024",
     "hoursWorked": 8,
-    "description": "Ik heb een volledige dag besteed aan bug hunting in de Sportify Admin Panel. Ik heb feedback verzameld over verschillende issues en deze gerapporteerd aan het team. De focus lag op het verbeteren van de stabiliteit van de applicatie.",
+    "description": "Verder debuggen van het probleem met de presingedURL.",
     "image": ""
   },
   {
