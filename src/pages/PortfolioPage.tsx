@@ -13,7 +13,7 @@ const projects = [
     title: 'Sportify',
     description: 'Mediahuis - Sports widgets for all brands',
     image: 'https://i.ibb.co/YWXsgJw/Screenshot-2025-01-09-131949.png',
-    technologies: ['React', 'TypeScript', 'AI','.NET API','PostgreSQL','Docker','AWS S3'],
+    technologies: ['React', 'TypeScript','.NET API','PostgreSQL','Docker','AWS S3'],
   },
   {
     id: 3,
