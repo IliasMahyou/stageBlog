@@ -1,60 +1,61 @@
 import React, { useEffect, useRef } from 'react';
-import { BrowserRouter as Router, Route, Routes, Link } from 'react-router-dom';
+import { Routes, Route, Link, useLocation } from 'react-router-dom';
 import BlogPage from './pages/BlogPage';
 import LandingPage from './pages/LandingPage';
 import PortfolioPage from './pages/PortfolioPage';
+import Presentation from './pages/Presentation';
 import { gsap } from 'gsap';
 
 const App: React.FC = () => {
   const starsContainerRef = useRef<HTMLDivElement>(null);
+  const location = useLocation(); // Ensure this is inside the Router context
+
+  const isPresentation = location.pathname === '/presentation';
 
   useEffect(() => {
-    if (starsContainerRef.current) {
+    if (!isPresentation && starsContainerRef.current) {
       const stars = starsContainerRef.current.querySelectorAll('.star');
 
       stars.forEach((star) => {
-        // Set initial random positions
         gsap.set(star, {
           x: () => Math.random() * window.innerWidth - window.innerWidth / 2,
           y: () => Math.random() * window.innerHeight - window.innerHeight / 2,
         });
 
-        // Animate each star to float
         gsap.to(star, {
           x: () => Math.random() * window.innerWidth - window.innerWidth / 2,
           y: () => Math.random() * window.innerHeight - window.innerHeight / 2,
-          duration: () => Math.random() * 10 + 5, // Random duration between 5s and 15s
-          repeat: -1, // Infinite animation
-          yoyo: true, // Move back and forth
+          duration: () => Math.random() * 10 + 5,
+          repeat: -1,
+          yoyo: true,
           ease: 'power1.inOut',
         });
       });
     }
-  }, []);
+  }, [isPresentation]);
 
   return (
-    <Router>
-      {/* Starry background */}
-      <div className="relative min-h-screen bg-gradient-to-b from-gray-900 via-black to-gray-800 overflow-hidden">
-        {/* Stars container */}
+    <div className={`relative min-h-screen ${!isPresentation ? 'bg-gradient-to-b from-gray-900 via-black to-gray-800' : ''} overflow-hidden`}>
+      {!isPresentation && (
         <div ref={starsContainerRef} className="absolute inset-0 z-0">
           {Array.from({ length: 100 }).map((_, index) => (
             <div
               key={index}
               className="star bg-white rounded-full absolute"
               style={{
-                width: `${Math.random() * 3 + 2}px`, // Random size
+                width: `${Math.random() * 3 + 2}px`,
                 height: `${Math.random() * 3 + 2}px`,
-                top: `${Math.random() * 100}%`, // Random position
+                top: `${Math.random() * 100}%`,
                 left: `${Math.random() * 100}%`,
-                opacity: Math.random() * 0.5 + 0.5, // Initial opacity
+                opacity: Math.random() * 0.5 + 0.5,
               }}
             ></div>
           ))}
         </div>
+      )}
 
-        {/* App content */}
-        <div className="relative z-10">
+      <div className={`relative ${!isPresentation ? 'z-10' : ''}`}>
+        {!isPresentation && (
           <nav className="bg-gray-800 shadow text-white">
             <div className="container mx-auto px-4 py-4 flex justify-between items-center">
               <h1 className="text-2xl font-bold">My Portfolio</h1>
@@ -77,16 +78,17 @@ const App: React.FC = () => {
               </ul>
             </div>
           </nav>
-          <div className="container mx-auto p-6">
-            <Routes>
-              <Route path="/" element={<LandingPage />} />
-              <Route path="/portfolio" element={<PortfolioPage />} />
-              <Route path="/blog" element={<BlogPage />} />
-            </Routes>
-          </div>
+        )}
+        <div className={`${!isPresentation ? 'container mx-auto p-6' : ''}`}>
+          <Routes>
+            <Route path="/" element={<LandingPage />} />
+            <Route path="/portfolio" element={<PortfolioPage />} />
+            <Route path="/blog" element={<BlogPage />} />
+            <Route path="/presentation" element={<Presentation />} />
+          </Routes>
         </div>
       </div>
-    </Router>
+    </div>
   );
 };
 

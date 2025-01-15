@@ -16,3 +16,10 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+body, html {
+  margin: 0;
+  padding: 0;
+  background-color: #f97316; /* Orange fallback color */
+  height: 100%;
+  overflow: hidden;
+}
