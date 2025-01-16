@@ -12,6 +12,7 @@ const SlideIntro: React.FC = () => {
   }, []);
 
   return (
+    <>
     <div className="h-screen w-screen relative overflow-hidden">
 
       <video
@@ -29,14 +30,24 @@ const SlideIntro: React.FC = () => {
 
 
       <div className="intro-content absolute top-16 left-16 text-left z-10 text-white">
-        <h1 className="text-9xl font-medium mb-6">Mediahuis</h1>
+        
         <p className="text-5xl mb-2">Ilias Mahyou</p>
         <p className="text-5xl">Software Developer</p>
       </div>
 
 
       <div className="absolute inset-0 bg-black bg-opacity-30"></div>
+      
     </div>
+    <img 
+  src="https://i.ibb.co/cyFG3y0/Mediahuis-logo-transparent-2.png" 
+  alt="Mediahuis Logo" 
+  height={100} 
+  width={300} 
+  className="absolute bottom-0 left-6"
+/>
+
+    </>
   );
 };
 

@@ -7,7 +7,6 @@ const SlideProjects: React.FC = () => {
       <ul className="text-3xl space-y-4">
         <li>Scribe</li>
         <li>Sportify</li>
-        <li>Transcription & APIs</li>
       </ul>
     </div>
   );

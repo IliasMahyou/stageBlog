@@ -6,7 +6,7 @@ const topics = [
   "Persoonlijke groei",
   "Reflectie technische problemen",
   "Voorstelling van de applicaties",
-  "Q&A",
+  "Question & Answer",
 ];
 
 const Inleiding: React.FC = () => {
@@ -34,7 +34,7 @@ const Inleiding: React.FC = () => {
         style={{
           backgroundImage:
             "url('https://www.mediahuis.be/app/uploads/2021/04/Het-Nieuwsblad-02-OT-filter-2-1024x490.jpg')",
-          filter: "blur(3px)",
+          filter: "blur(1.5px)",
         }}
       ></div>
 
@@ -42,9 +42,7 @@ const Inleiding: React.FC = () => {
       <div className="absolute inset-0 bg-black bg-opacity-50"></div>
 
      
-      <header className="absolute top-6 left-6 z-10">
-        <h1 className="text-6xl font-extrabold text-red-500">Mediahuis</h1>
-      </header>
+
 
       
       <div className="max-w-4xl text-center z-10">
@@ -62,6 +60,13 @@ const Inleiding: React.FC = () => {
               {topic}
             </div>
           ))}
+              <img 
+  src="https://i.ibb.co/cyFG3y0/Mediahuis-logo-transparent-2.png" 
+  alt="Mediahuis Logo" 
+  height={100} 
+  width={300} 
+  className="absolute bottom-0 left-6"
+/>
         </div>
       </div>
     </div>
