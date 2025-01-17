@@ -11,13 +11,11 @@ const topics = [
 
 const Inleiding: React.FC = () => {
   useEffect(() => {
-
     gsap.fromTo(
       ".topic-item",
       { opacity: 0, y: 20 },
       { opacity: 1, y: 0, stagger: 0.2, duration: 0.8, ease: "power2.out" }
     );
-
 
     gsap.fromTo(
       ".inleiding-title",
@@ -28,7 +26,7 @@ const Inleiding: React.FC = () => {
 
   return (
     <div className="h-screen w-screen relative flex items-center justify-center">
- 
+      {/* Background image */}
       <div
         className="absolute inset-0 bg-cover bg-center bg-fixed"
         style={{
@@ -38,19 +36,15 @@ const Inleiding: React.FC = () => {
         }}
       ></div>
 
-    
+      {/* Overlay */}
       <div className="absolute inset-0 bg-black bg-opacity-50"></div>
 
-     
-
-
-      
+      {/* Content */}
       <div className="max-w-4xl text-center z-10">
-        <h1 className="inleiding-title text-7xl font-extrabold text-white mb-12 tracking-wider">
+        <h1 className="absolute top-16 left-16 inleiding-title text-7xl font-extrabold text-white mb-12 tracking-wider">
           Inleiding
         </h1>
 
-        
         <div className="space-y-8">
           {topics.map((topic, index) => (
             <div
@@ -60,15 +54,17 @@ const Inleiding: React.FC = () => {
               {topic}
             </div>
           ))}
-              <img 
-  src="https://i.ibb.co/cyFG3y0/Mediahuis-logo-transparent-2.png" 
-  alt="Mediahuis Logo" 
-  height={100} 
-  width={300} 
-  className="absolute bottom-0 left-6"
-/>
         </div>
       </div>
+
+      {/* Mediahuis Logo */}
+      <img
+        src="https://i.ibb.co/cyFG3y0/Mediahuis-logo-transparent-2.png"
+        alt="Mediahuis Logo"
+        height={100}
+        width={300}
+        className="absolute bottom-0 left-6"
+      />
     </div>
   );
 };
