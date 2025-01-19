@@ -2,10 +2,9 @@ import React, { useEffect } from "react";
 import { gsap } from "gsap";
 
 const topics = [
-  "Toelichting van de uitgevoerde taken",
+  "Projecten",
+  "Workflow, Taken & Technische Reflectie",
   "Persoonlijke groei",
-  "Reflectie technische problemen",
-  "Voorstelling van de applicaties",
   "Question & Answer",
 ];
 
