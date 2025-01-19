@@ -30,7 +30,7 @@ const Inleiding: React.FC = () => {
         className="absolute inset-0 bg-cover bg-center bg-fixed"
         style={{
           backgroundImage:
-            "url('https://www.mediahuis.be/app/uploads/2021/04/Het-Nieuwsblad-02-OT-filter-2-1024x490.jpg')",
+            "url('https://i.ibb.co/CHDCxY8/Het-Nieuwsblad-02-OT-filter-2-1024x490.jpg')",
           filter: "blur(1.5px)",
         }}
       ></div>
