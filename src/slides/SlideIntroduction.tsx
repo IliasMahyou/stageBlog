@@ -25,7 +25,7 @@ const Inleiding: React.FC = () => {
 
   return (
     <div className="h-screen w-screen relative flex items-center justify-center">
-      {/* Background image */}
+      
       <div
         className="absolute inset-0 bg-cover bg-center bg-fixed"
         style={{
@@ -35,10 +35,10 @@ const Inleiding: React.FC = () => {
         }}
       ></div>
 
-      {/* Overlay */}
+      
       <div className="absolute inset-0 bg-black bg-opacity-50"></div>
 
-      {/* Content */}
+      
       <div className="max-w-4xl text-center z-10">
         <h1 className="absolute top-16 left-16 inleiding-title text-7xl font-extrabold text-white mb-12 tracking-wider">
           Inleiding
@@ -56,7 +56,7 @@ const Inleiding: React.FC = () => {
         </div>
       </div>
 
-      {/* Mediahuis Logo */}
+      
       <img
         src="https://i.ibb.co/cyFG3y0/Mediahuis-logo-transparent-2.png"
         alt="Mediahuis Logo"
