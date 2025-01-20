@@ -1,5 +1,5 @@
 import React from "react";
-import { LottieAnimation } from "./logos/LottiesAnimation";
+
 import MediahuisLogo from "./logos/MediahuisLogo";
 
 const SlideTechnologies: React.FC = () => {
