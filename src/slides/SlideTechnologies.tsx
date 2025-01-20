@@ -1,6 +1,8 @@
 import React from "react";
 
 import MediahuisLogo from "./logos/MediahuisLogo";
+import HoverButton from "../components/HoverButton";
+import Logo from "./logos/Logo";
 
 const SlideTechnologies: React.FC = () => {
   return (
@@ -16,6 +18,11 @@ const SlideTechnologies: React.FC = () => {
         <li>Taken</li>
         <li>Technische Reflectie</li>
       </ul>
+      <div className="flex gap-20">
+          <HoverButton href={"https://mediahuis.atlassian.net/jira/software/c/projects/NES/boards/22"} children={<Logo logoURL="https://i.ibb.co/VjH4dsY/f122fc74cdb80f540fe0b65cecccaa03.png" alt="JiraLogo"/>} />
+          <HoverButton href={"https://gitlab.mediahuisgroup.com/Ilias.Mahyou"} children={<Logo logoURL="https://i.ibb.co/ZKBWBhJ/pngfind-com-github-logo-png-945757.png" alt="GitlabLogo" className="w-20"/>} />
+      </div>
+    
       <MediahuisLogo/>
     </div>
   );

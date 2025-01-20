@@ -1,5 +1,6 @@
 import React, { useEffect } from "react";
 import { gsap } from "gsap";
+import MediahuisLogo from "./logos/MediahuisLogo";
 
 const topics = [
   "Projecten",
@@ -55,15 +56,7 @@ const Inleiding: React.FC = () => {
           ))}
         </div>
       </div>
-
-      
-      <img
-        src="https://i.ibb.co/cyFG3y0/Mediahuis-logo-transparent-2.png"
-        alt="Mediahuis Logo"
-        height={100}
-        width={300}
-        className="absolute bottom-0 left-6"
-      />
+      <MediahuisLogo/>
     </div>
   );
 };
