@@ -1,10 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import Lottie from 'react-lottie';
 
-
-
-  
-
 export const LottieAnimation = ({width,height,lottie}:{width:number,height:number,lottie:string}): React.JSX.Element => {
     
   const [animationData, setAnimationData] = useState(null);
