@@ -7,6 +7,7 @@ import SlideLessons from "../slides/SlideLessons";
 import SlideThankYou from "../slides/SlideThankYou";
 import NavigationDots from "../components/NavigationDots";
 import SlideIntro from "../slides/SlideIntro";
+import SlideQuestionsAndAnswers from "../slides/SlideQuestionAnswer";
 
 const Presentation: React.FC = () => {
   const [activeSlide, setActiveSlide] = useState(0);
@@ -18,32 +19,33 @@ const Presentation: React.FC = () => {
     <SlideProjects key="projects" />,
     <SlideTechnologies key="tech" />,
     <SlideLessons key="lessons" />,
-    <SlideThankYou key="thank-you" />,
+    <SlideQuestionsAndAnswers key="questionAndAnswer"/>,
+    <SlideThankYou key="thank-you" />
+
   ];
 
   const handleSlideChange = (newSlide: number) => {
     setActiveSlide(newSlide);
 
-    // Animate Parallax
     gsap.to(".background-layer", {
-      x: `-${newSlide * 50}vw`, // Move the background layer slower
+      x: `-${newSlide * 50}vw`, 
       duration: 0.5,
       ease: "power2.out",
     });
 
     gsap.to(".foreground-layer", {
-      x: `-${newSlide * 100}vw`, // Move the slides at normal speed
+      x: `-${newSlide * 100}vw`, 
       duration: 0.5,
       ease: "power2.out",
     });
   };
 
   const handleScroll = (event: WheelEvent) => {
-    if (scrolling) return; // Prevent rapid scrolling
+    if (scrolling) return; 
 
-    setScrolling(true); // Block further scrolling temporarily
+    setScrolling(true);
 
-    // Scroll down (positive deltaY) or up (negative deltaY)
+ 
     if (event.deltaY > 0) {
       const nextSlide = (activeSlide + 1) % slides.length;
       handleSlideChange(nextSlide);
@@ -52,23 +54,23 @@ const Presentation: React.FC = () => {
       handleSlideChange(prevSlide);
     }
 
-    // Allow scrolling after a short delay
-    setTimeout(() => setScrolling(false), 800); // Adjust timing as needed
+ 
+    setTimeout(() => setScrolling(false), 800); 
   };
 
   useEffect(() => {
-    // Add event listener for scroll
+ 
     window.addEventListener("wheel", handleScroll);
 
-    // Cleanup event listener on unmount
+   
     return () => {
       window.removeEventListener("wheel", handleScroll);
     };
-  }, [activeSlide, scrolling]); // Dependency array to access updated state
+  }, [activeSlide, scrolling]); 
 
   return (
     <div className="relative overflow-hidden h-screen w-screen">
-      {/* Background Layer */}
+    
       <div
         className="background-layer absolute inset-0 h-full w-full bg-gradient-to-r from-blue-500 to-purple-500 transition-transform"
         style={{
@@ -76,7 +78,7 @@ const Presentation: React.FC = () => {
         }}
       ></div>
 
-      {/* Slides Container */}
+ 
       <div
         className="foreground-layer flex h-screen transition-transform duration-700 relative"
         style={{
@@ -91,7 +93,7 @@ const Presentation: React.FC = () => {
         ))}
       </div>
 
-      {/* Navigation Dots */}
+
       <NavigationDots
         slides={slides.length}
         activeSlide={activeSlide}
