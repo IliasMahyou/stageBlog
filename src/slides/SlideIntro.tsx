@@ -16,31 +16,16 @@ const SlideIntro: React.FC = () => {
     <>
       <div className="h-screen w-screen relative overflow-hidden">
        
-        <div
-          style={{
-            position: "relative",
-            width: "100%",
-            height: "0",
-            paddingBottom: "56.25%",
-          }}
-        >
-          <iframe
-            allow="fullscreen;autoplay"
-            allowFullScreen
-            height="100%"
-            src="https://streamable.com/e/z9wvrm?autoplay=1&muted=1"
-            width="100%"
-            style={{
-              border: "none",
-              width: "100%",
-              height: "100%",
-              position: "absolute",
-              left: 0,
-              top: 0,
-              overflow: "hidden",
-            }}
-          ></iframe>
-        </div>
+      <div className="absolute inset-0">
+        <video
+          src="/Mediahuis-Corporate-Header.mp4" 
+          autoPlay
+          loop
+          muted
+          playsInline
+          className="absolute inset-0 h-full w-full object-cover"
+        ></video>
+      </div>
 
        
         <div className="intro-content absolute top-16 left-16 text-left z-10 text-white">
