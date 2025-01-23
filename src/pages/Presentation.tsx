@@ -11,7 +11,7 @@ import SlideQuestionsAndAnswers from "../slides/SlideQuestionAnswer";
 
 const Presentation: React.FC = () => {
   const [activeSlide, setActiveSlide] = useState(0);
-  const [scrolling, setScrolling] = useState(false); // Prevent rapid scrolling
+  const [scrolling, setScrolling] = useState(false); // prevent rapid scrolling
 
   const slides = [
     <SlideIntro key="actualIntro" />,
